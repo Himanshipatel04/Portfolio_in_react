@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Pac{
+  font-family: "Pacifico";
+}
+
+.Aclonica{
+  font-family: "Aclonica";
+}
+
+.Alkatra{
+  font-family: "Alkatra";
+}
+
+.autumn{
+  font-family: "Autumn Flowers";
+}
+
+.bg{
+  background: url(../src/assets/bg.jpg);
+}
