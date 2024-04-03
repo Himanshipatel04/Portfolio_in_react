@@ -4,7 +4,7 @@ import photo from "../assets/photo.jpg";
 const About = () => {
   return (
     <div className="bg-[#212121] h-screen w-full flex justify-center items-center flex-col gap-14">
-      <h1 className="text-yellow-400 text-5xl underline">About Me</h1>
+      <h1 className="text-yellow-400 text-4xl underline">About Me</h1>
       <div className="flex justify-between items-center gap-10 text-white">
         <div>
           <img

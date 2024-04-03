@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center gap-5 pt-3 pl-14 pr-28 fixed w-full">
       <div>
-        <Link to={"/"}>
+        <Link to={"#"}>
           <p className=" text-[#d353b9] font-bold text-5xl autumn">
             Himanshi<span className="text-red-200">.</span>
           </p>

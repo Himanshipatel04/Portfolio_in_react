@@ -9,6 +9,9 @@ import About from '../src/pages/About';
 
 function App() {
   return (
+    // <div>
+    //   <Home/>
+    // </div>
     <Router>
       <Header/>
        <Routes>

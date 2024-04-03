@@ -1,9 +1,16 @@
 import React from 'react';
 import bg from "../assets/bg.jpg";
 import {FaGithub,FaLinkedin,FaInstagram} from "react-icons/fa";
+import Header from "../common/Header";
+import Project from "../pages/Project";
+import Skills from "../pages/Skills";
+import Achievements from "../pages/Achievements";
+import Contact from "../pages/Contact";
+import About from '../pages/About';
 
 const Home = () => {
   return (
+   <>
     <div className='h-screen w-full'>
      <img className='h-screen w-full fixed -z-20' src={bg} alt="" />
       <div className='text-white h-full w-full flex items-center justify-center flex-col gap-12'>
@@ -16,6 +23,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
