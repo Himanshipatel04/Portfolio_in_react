@@ -6,9 +6,9 @@ import { IoIosMail } from "react-icons/io";
 const Contact = () => {
   return (
     <div className="flex items-center justify-center h-screen w-full bg-black text-white flex-col pt-24 gap-16 px-72">
-      <p className="text-yellow-400 text-3xl font-semibold tracking-widest">CONTACT ME</p>
+      <p className="text-yellow-400 text-3xl font-semibold tracking-widest"  data-aos = "fade-up"  data-aos-delay="200">CONTACT ME</p>
       <div className="w-full flex items-center justify-center flex-col gap-16 ">
-        <div className="w-full flex items-center justify-center gap-16">
+        <div className="w-full flex items-center justify-center gap-16"  data-aos = "fade-up"  data-aos-delay="200">
           <input
             className="w-[50%] outline-none border-b-2 bg-transparent placeholder:text-yellow-400 placeholder:uppercase placeholder:tracking-widest p-2"
             type="text"
@@ -26,11 +26,11 @@ const Contact = () => {
         </div>
         <textarea
           className="w-full border-b-2 bg-transparent placeholder:text-yellow-400 placeholder:uppercase placeholder:tracking-widest outline-none p-2 resize-none"
-          placeholder="Message*"
+          placeholder="Message*"  data-aos = "fade-up"  data-aos-delay="200"
         ></textarea>
       </div>
-      <button className="p-2 w-32 rounded-lg text-black font-semibold bg-yellow-400">Send Message</button>
-      <div className="flex items-center gap-28">
+      <button className="p-2 w-32 rounded-lg text-black font-semibold bg-yellow-400"  data-aos = "fade-up"  data-aos-delay="200" >Send Message</button>
+      <div className="flex items-center gap-28"  data-aos = "fade-up"  data-aos-delay="200">
         <Link  to="https://github.com/Himanshipatel04">
           <FaGithub size={40}/>
         </Link>

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html,body{
+  scroll-behavior: smooth;
+}
+
 .Pac{
   font-family: "Pacifico";
 }
@@ -20,4 +24,8 @@
 
 .bg{
   background: url(../src/assets/bg.jpg);
+}
+
+.shadow{
+  box-shadow: 0 0 10px 3px yellow;
 }

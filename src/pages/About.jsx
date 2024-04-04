@@ -15,8 +15,8 @@ const About = () => {
 
   return (
     <div className=" bg-black h-screen p-32 w-full flex justify-center items-center flex-col gap-14 " >
-      <h1 className="text-yellow-400 text-4xl uppercase tracking-widest">About Me</h1>
-      <div className="flex justify-between items-center gap-10 text-white">
+      <h1 className="text-yellow-400 text-4xl uppercase tracking-widest"  data-aos = "fade-up"  data-aos-delay="200">About Me</h1>
+      <div className="flex justify-between items-center gap-10 text-white"  data-aos = "fade-up"  data-aos-delay="200">
         <div>
           <img
             className="h-96 shadow-md outline-none border-none rounded-md shadow-yellow-400"
