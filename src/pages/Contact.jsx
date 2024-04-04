@@ -30,7 +30,7 @@ const Contact = () => {
         ></textarea>
       </div>
       <button className="p-2 w-32 rounded-lg text-black font-semibold bg-yellow-400"  data-aos = "fade-up"  data-aos-delay="200" >Send Message</button>
-      <div className="flex items-center gap-28"  data-aos = "fade-up"  data-aos-delay="200">
+      <div className="flex items-center gap-28" >
         <Link  to="https://github.com/Himanshipatel04">
           <FaGithub size={40}/>
         </Link>
