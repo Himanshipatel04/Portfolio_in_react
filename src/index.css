@@ -21,15 +21,3 @@
 .bg{
   background: url(../src/assets/bg.jpg);
 }
-
-.ch{
-  height: 600px;
-}
-
-.cw{
-  width: 300px;
-}
-
-.shadow-card{
-  box-shadow: 0 0 10px 1px yellow;
-}

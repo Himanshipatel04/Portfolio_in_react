@@ -1,12 +1,12 @@
 import React from 'react';
 import bg from "../assets/bg.jpg";
 import {FaGithub,FaLinkedin,FaInstagram} from "react-icons/fa";
-import Header from "../common/Header";
 import Project from "../pages/Project";
 import Skills from "../pages/Skills";
 import Achievements from "../pages/Achievements";
 import Contact from "../pages/Contact";
 import About from '../pages/About';
+
 
 const Home = () => {
   return (
@@ -23,6 +23,11 @@ const Home = () => {
         </div>
       </div>
     </div>
+        <About/>
+        <Project/>
+        <Skills/>
+        <Achievements/>
+        <Contact/>
     </>
   )
 }

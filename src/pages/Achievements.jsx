@@ -1,23 +1,24 @@
 import React from 'react'
-import photo from "../assets/photo.jpg"
+import photo1 from "../assets/cdgi.jpg"
+import photo2 from "../assets/best student.jpg"
+import photo3 from "../assets/sih.jpg"
 
-function Achievements() {
+const AcCard = (props) => {
+    return <div className='h-[500px] rounded-xl shadow-md shadow-yellow-400 w-[350px] p-5 text-center'>
+       <img src={props.photo} alt="" className='h-[300px] w-full object-cover mb-4  rounded-lg'/>
+       <p>{props.text}</p>
+    </div>
+}
+
+
+const Achievements = () => {
   return (
-    <div className="bg-[#212121] h-screen w-full flex justify-center flex-col items-center gap-8 outline text-white">
-     <h1 className='text-3xl text-yellow-400 underline'>Achievements</h1>
-      <div className='flex justify-center items-center gap-28'>
-        <div className='w-96 ch outline rounded-lg outline-1 shadow-card outline-yellow-400 flex items-center justify-center gap-4 flex-col p-4'>
-          <img className='h-80 w-80 object-cover rounded-lg' src={photo} alt="" />
-          <p className=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore iure officia dignissimos? Possimus, velit architecto. Eaque quae id, illum totam esse enim nulla eos voluptatibus nesciunt consequatur iusto modi dicta non nam perspiciatis fugit, inventore dignissimos dolorum? Quidem molestiae molestias voluptatem nihil officia! Iusto error molestias sit ea tempora?</p>
-        </div>
-        <div className='w-96 ch outline rounded-lg outline-1 shadow-card outline-yellow-400 flex items-center justify-center gap-4 flex-col p-4'>
-          <img className='h-80 w-80 object-cover rounded-lg' src={photo} alt="" />
-          <p className=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore iure officia dignissimos? Possimus, velit architecto. Eaque quae id, illum totam esse enim nulla eos voluptatibus nesciunt consequatur iusto modi dicta non nam perspiciatis fugit, inventore dignissimos dolorum? Quidem molestiae molestias voluptatem nihil officia! Iusto error molestias sit ea tempora?</p>
-        </div>
-        <div className='w-96 ch outline rounded-lg outline-1 shadow-card outline-yellow-400 flex items-center justify-center gap-4 flex-col p-4'>
-          <img className='h-80 w-80 object-cover rounded-lg' src={photo} alt="" />
-          <p className=" text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolore iure officia dignissimos? Possimus, velit architecto. Eaque quae id, illum totam esse enim nulla eos voluptatibus nesciunt consequatur iusto modi dicta non nam perspiciatis fugit, inventore dignissimos dolorum? Quidem molestiae molestias voluptatem nihil officia! Iusto error molestias sit ea tempora?</p>
-        </div>
+    <div className='flex items-center justify-center gap-16 flex-col pt-28 bg-black min-h-screen text-yellow-400 text-lg'>
+        <p className='text-yellow-400 text-3xl uppercase tracking-widest'>Achievements</p>
+        <div className='flex items-center justify-center gap-20'>
+            <AcCard text="Honored to be recognized as the top academic achiever in university, receiving the prestigious award for achieving the highest marks across all subjects." photo= {photo1} />
+            <AcCard text="Successfully propelled to the pinnacle of the Smart India Hackathon 2023, hosted at Manipal University Jaipur, alongside the team 'Code Connect', with myself as the team lead." photo= {photo3} />
+            <AcCard text="Proudly secured the runner-up position in the esteemed 'Web Granth' web development hackathon, hosted at Chameli Devi Group of Institutions, Indore." photo= {photo2} />
         </div>
     </div>
   )

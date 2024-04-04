@@ -1,18 +1,18 @@
-import React from "react";
+import React from "react"; 
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="flex justify-between items-center gap-5 pt-3 pl-14 pr-28 fixed w-full">
+    <div className="flex justify-between items-center gap-5 pt-6 pl-14 pr-28 fixed w-full" data-aos="fade-up">
       <div>
         <Link to={"#"}>
-          <p className=" text-[#d353b9] font-bold text-5xl autumn">
+          <p className=" text-yellow-400 font-bold text-5xl autumn">
             Himanshi<span className="text-red-200">.</span>
           </p>
         </Link>
       </div>
-      <div className="flex justify-between items-center gap-20 text-lg Aclonica text-pink-500">
+      <div className="flex justify-between items-center gap-20 text-lg Aclonica text-yellow-400">
         <Link className="hover:text-pink-300 duration-300" to={"/"}>
-          <p>Home</p>
+          <p>Home</p> 
         </Link>
         <Link className="hover:text-pink-300 duration-300" to={"/about"}>
           <p>About Me</p>

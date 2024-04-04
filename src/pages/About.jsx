@@ -1,14 +1,25 @@
 import React from "react";
 import photo from "../assets/photo.jpg";
+import resumePDF from "../assets/resume.pdf"; 
 
 const About = () => {
+  const onButtonClick = () =>{
+       const pdfURL = resumePDF;
+       const link = document.createElement('a');
+       link.href = pdfURL;
+       link.download = 'Himanshi_resume'
+       document.body.appendChild(link)
+       link.click()
+       document.body.removeChild(link)
+  }
+
   return (
-    <div className="bg-[#212121] h-screen w-full flex justify-center items-center flex-col gap-14">
-      <h1 className="text-yellow-400 text-4xl underline">About Me</h1>
+    <div className=" bg-black h-screen p-32 w-full flex justify-center items-center flex-col gap-14 " >
+      <h1 className="text-yellow-400 text-4xl uppercase tracking-widest">About Me</h1>
       <div className="flex justify-between items-center gap-10 text-white">
         <div>
           <img
-            className="h-96 shadow-md rounded-lg shadow-pink-500"
+            className="h-96 shadow-md outline-none border-none rounded-md shadow-yellow-400"
             src={photo}
             alt=""
           />
@@ -30,7 +41,7 @@ const About = () => {
                 himanshipatel0409@gmail.com
               </li>
             </ul>
-            <button className="bg-yellow-300 h-8 w-32 rounded-2xl text-red-800 font-bold">
+          <button onClick={onButtonClick} className="bg-yellow-300 h-8 w-32 rounded-2xl text-red-800 font-bold">
               Download CV
             </button>
           </div>

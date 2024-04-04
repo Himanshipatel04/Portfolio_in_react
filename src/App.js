@@ -5,7 +5,9 @@ import Project from "../src/pages/Project";
 import Skills from "../src/pages/Skills";
 import Achievements from "../src/pages/Achievements";
 import Contact from "../src/pages/Contact";
-import About from '../src/pages/About';
+import About from '../src/pages/About';import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 function App() {
   return (
