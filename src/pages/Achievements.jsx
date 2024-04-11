@@ -16,9 +16,9 @@ const Achievements = () => {
     <div className='flex items-center justify-center gap-16 flex-col pt-28 bg-black min-h-screen text-yellow-400 text-lg'>
         <p className='text-yellow-400 text-3xl uppercase tracking-widest'  data-aos = "fade-up"  data-aos-delay="200">Achievements</p>
         <div className='flex items-center justify-center gap-20'  data-aos = "fade-up"  data-aos-delay="200">
-            <AcCard text="Honored to be recognized as the top academic achiever in university, receiving the prestigious award for achieving the highest marks across all subjects." photo= {photo1} />
+            <AcCard text="Honored to be recognized as the top academic achiever in university, receiving the prestigious award for achieving the highest marks across all subjects." photo= {photo2} />
             <AcCard text="Successfully propelled to the pinnacle of the Smart India Hackathon 2023, hosted at Manipal University Jaipur, alongside the team 'Code Connect', with myself as the team lead." photo= {photo3} />
-            <AcCard text="Proudly secured the runner-up position in the esteemed 'Web Granth' web development hackathon, hosted at Chameli Devi Group of Institutions, Indore." photo= {photo2} />
+            <AcCard text="Proudly secured the runner-up position in the esteemed 'Web Granth' web development hackathon, hosted at Chameli Devi Group of Institutions, Indore." photo= {photo1} />
         </div>
     </div>
   )
