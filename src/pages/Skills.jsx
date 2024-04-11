@@ -30,7 +30,7 @@ const Skills = () => {
       <p className="text-yellow-400 text-3xl font-semibold tracking-widest uppercase" data-aos = "fade-up"  data-aos-delay="100">
         Skills
       </p>
-      <div className="grid grid-cols-3 grid-rows-2 gap-28" data-aos = "fade-up"  data-aos-delay="200">
+      <div className="grid grid-cols-3 grid-rows-2 gap-20" data-aos = "fade-up"  data-aos-delay="200">
       <SkillCard
           heading="Programming Languages"
           photo1={c}
