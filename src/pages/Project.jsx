@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
-    <div className="bg-black h-screen w-full flex flex-col items-center gap-6 text-white text-4xl pt-24 pl-20 pr-20">
+    <div className="bg-black h-screen w-full flex flex-col items-center gap-10 text-white text-4xl pt-24 pl-20 pr-20">
       <p
         data-aos="fade-up"
         data-aos-delay="100"
@@ -19,7 +19,7 @@ const Project = () => {
         Projects
       </p>
       <div
-        className="flex items-center justify-between gap-16"
+        className="flex items-center justify-between gap-10"
         data-aos="fade-up"
         data-aos-delay="200"
       >
@@ -43,7 +43,7 @@ const Project = () => {
       </div>
 
       <div
-        className="flex items-center justify-between gap-16"
+        className="flex items-center justify-between gap-10"
         data-aos="fade-up"
         data-aos-delay="300"
       >
