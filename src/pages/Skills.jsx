@@ -1,8 +1,28 @@
 import React from "react";
 import SkillCard from "../components/SkillCard";
-import one from "../assets/Pandas.png";
-import two from "../assets/numpy.png";
-import three from "../assets/matplotlib.png";
+import pandas from "../assets/Pandas.png";
+import numpy from "../assets/numpy.png";
+import matplotlib from "../assets/matplotlib.png";
+import seaborn from "../assets/seab.png";
+import powerbi from "../assets/bi.png";
+import excel from "../assets/excel.png";
+import scikit from "../assets/sklearn.png";
+import c from "../assets/pngwing.com.png";
+import py from "../assets/python.png";
+import cpp from "../assets/c-.png";
+import js from "../assets/js.png";
+import html from "../assets/html-5.png";
+import css from "../assets/css.png";
+import react from "../assets/react.png";
+import express from "../assets/express.png";
+import mongodb from "../assets/mongo.png";
+import mysql from "../assets/mysql.png";
+import sqlite from "../assets/sqlite.png";
+import oracle from "../assets/oracle.png";
+import git from "../assets/git (1).png";
+import github from "../assets/gihub.png";
+import vscode from "../assets/vsc.png";
+import notebook from "../assets/main-logo.png";
 
 const Skills = () => {
   return (
@@ -11,41 +31,47 @@ const Skills = () => {
         Skills
       </p>
       <div className="grid grid-cols-3 grid-rows-2 gap-28" data-aos = "fade-up"  data-aos-delay="200">
-        <SkillCard
-          heading="Data Analysis"
-          photo1={one}
-          photo2={two}
-          photo3={three}
+      <SkillCard
+          heading="Programming Languages"
+          photo1={c}
+          photo2={cpp}
+          photo3={py}
+          photo4={js} 
         />
         <SkillCard
-          heading="Data Analysis"
-          photo1={one}
-          photo2={two}
-          photo3={three}
+          heading="Data Cleaning and Modelling"
+          photo1={pandas}
+          photo2={numpy}
+          photo3={scikit}
+          photo4={excel}
         />
         <SkillCard
-          heading="Data Analysis"
-          photo1={one}
-          photo2={two}
-          photo3={three}
+          heading="Data Visulalization"
+          photo1={pandas}
+          photo2={powerbi}
+          photo3={matplotlib}
+          photo4={seaborn}
         />
         <SkillCard
-          heading="Data Analysis"
-          photo1={one}
-          photo2={two}
-          photo3={three}
+          heading="Web Development"
+          photo1={html}
+          photo2={css}
+          photo3={react}
+          photo4={express}
         />
         <SkillCard
-          heading="Data Analysis"
-          photo1={one}
-          photo2={two}
-          photo3={three}
+          heading="Database"
+          photo1={mongodb}
+          photo2={sqlite}
+          photo3={mysql}
+          photo4={oracle}
         />
         <SkillCard
-          heading="Data Analysis"
-          photo1={one}
-          photo2={two}
-          photo3={three}
+          heading="Tools and VC"
+          photo1={git}
+          photo2={github}
+          photo3={vscode}
+          photo4={notebook}
         />
       </div>
     </div>
