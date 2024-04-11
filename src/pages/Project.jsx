@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
-    <div className="bg-black h-screen w-full flex flex-col items-center gap-10  text-white text-4xl pt-24 pl-20 pr-20">
+    <div className="bg-black h-screen w-full flex flex-col items-center gap-6 text-white text-4xl pt-24 pl-20 pr-20">
       <p
         data-aos="fade-up"
         data-aos-delay="100"
