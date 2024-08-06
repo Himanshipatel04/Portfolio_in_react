@@ -1,22 +1,32 @@
 import React from "react";
 import photo from "../assets/photo.jpg";
-import resumePDF from "../assets/resume.pdf"; 
+import resumePDF from "../assets/resume.pdf";
 
 const About = () => {
-  const onButtonClick = () =>{
-       const pdfURL = resumePDF;
-       const link = document.createElement('a');
-       link.href = pdfURL;
-       link.download = 'Himanshi_resume'
-       document.body.appendChild(link)
-       link.click()
-       document.body.removeChild(link)
-  }
+  const onButtonClick = () => {
+    const pdfURL = resumePDF;
+    const link = document.createElement("a");
+    link.href = pdfURL;
+    link.download = "Himanshi_resume";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
-    <div className=" bg-black h-screen p-32 w-full flex justify-center items-center flex-col gap-14 " >
-      <h1 className="text-yellow-400 text-4xl uppercase tracking-widest"  data-aos = "fade-up"  data-aos-delay="200">About Me</h1>
-      <div className="flex justify-between items-center gap-10 text-white"  data-aos = "fade-up"  data-aos-delay="200">
+    <div className=" bg-black md:h-screen w-full flex justify-center items-center flex-col gap-8 md:gap-14 ">
+      <h1
+        className="text-yellow-400 mt-20 md:mt-0 text-3xl md:text-4xl uppercase tracking-widest"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
+        About Me
+      </h1>
+      <div
+        className=" flex flex-col md:flex-row justify-between items-center gap-y-4 md:gap-10 text-white"
+        data-aos="fade-up"
+        data-aos-delay="200"
+      >
         <div>
           <img
             className="h-96 shadow-md outline-none border-none rounded-md shadow-yellow-400"
@@ -24,7 +34,7 @@ const About = () => {
             alt=""
           />
         </div>
-        <div className="h-96 w-96 flex justify-center items-start gap-10 flex-col">
+        <div className="p-10 md:p-0 h-fit md:h-96 w-96 flex justify-center items-start gap-10 flex-col">
           <div className="flex flex-col gap-4">
             <h1 className="text-3xl font-bold">Hi,I am Himanshi Patel !</h1>
             <p className="text-2xl  text-yellow-400">Web Developer</p>
@@ -41,7 +51,10 @@ const About = () => {
                 himanshipatel0409@gmail.com
               </li>
             </ul>
-          <button onClick={onButtonClick} className="bg-yellow-300 h-8 w-32 rounded-2xl text-red-800 font-bold">
+            <button
+              onClick={onButtonClick}
+              className="bg-yellow-300 h-8 w-32 rounded-2xl text-red-800 font-bold"
+            >
               Download CV
             </button>
           </div>
