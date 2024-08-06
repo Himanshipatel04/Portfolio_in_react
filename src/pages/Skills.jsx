@@ -26,11 +26,11 @@ import notebook from "../assets/main-logo.png";
 
 const Skills = () => {
   return (
-    <div className="bg-black h-fit w-full flex items-center justify-between flex-col pt-28 pb-10 gap-10 text-white text-4xl ">
+    <div className="bg-black h-fit w-screen md:w-full flex items-center justify-between flex-col pt-10 md:pt-28 pb-10 gap-10 text-white text-4xl ">
       <p className="text-yellow-400 text-3xl font-semibold tracking-widest uppercase" data-aos = "fade-up"  data-aos-delay="100">
         Skills
       </p>
-      <div className="grid grid-cols-3 grid-rows-2 gap-20" data-aos = "fade-up"  data-aos-delay="200">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 gap-9 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-20" data-aos = "fade-up"  data-aos-delay="200">
       <SkillCard
           heading="Programming Languages"
           photo1={c}

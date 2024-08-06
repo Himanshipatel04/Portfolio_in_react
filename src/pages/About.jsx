@@ -14,9 +14,9 @@ const About = () => {
   };
 
   return (
-    <div className=" bg-black md:h-screen w-full flex justify-center items-center flex-col gap-8 md:gap-14 ">
+    <div className=" bg-black md:h-screen w-screen md:w-full flex justify-center items-center pt-10 md:pt-2 flex-col gap-8 md:gap-14 ">
       <h1
-        className="text-yellow-400 mt-20 md:mt-0 text-3xl md:text-4xl uppercase tracking-widest"
+        className="text-yellow-400  md:mt-0 text-3xl md:text-4xl uppercase tracking-widest"
         data-aos="fade-up"
         data-aos-delay="200"
       >

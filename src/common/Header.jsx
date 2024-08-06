@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="flex z-50 justify-between items-center gap-5 pt-6 pl-14 pr-28 fixed w-full" data-aos="fade-up">
+    <div className="flex z-50 justify-between items-center gap-5 pt-6 pl-6 pr-28 fixed w-screen md:w-full" data-aos="fade-up">
       <div>
         <Link to={"/"}>
-          <p className=" text-yellow-400 font-bold  md:text-5xl text-xl autumn">
+          <p className=" text-yellow-400 font-bold  md:text-5xl text-4xl autumn">
             Himanshi<span className="text-red-200">.</span>
           </p>
         </Link>
