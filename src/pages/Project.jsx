@@ -19,9 +19,25 @@ const Project = () => {
         Projects
       </p>
       <div
-        className="flex flex-col md:flex-row items-center justify-between gap-10"
+        className=" mb-10 md:mb-0 flex flex-col md:flex-row items-center justify-between gap-10"
         data-aos="fade-up"
         data-aos-delay="200"
+      >
+        <Link to="https://github.com/Himanshipatel04/goFood-f.git">
+          <Card photo={gofood} heading="GoFood" text="MERN" />
+        </Link>
+        <Link to="https://github.com/Himanshipatel04/learn-ify.git"><Card
+          photo={learnify}
+          heading="Learnify"
+          text="React,Firebase"
+        /></Link>
+        <Link to="https://bloghive-lovat.vercel.app/">
+          <Card photo={bloghive} heading="BlogHive" text="MERN" />
+        </Link>
+      </div>
+      <div
+        className="flex flex-col md:flex-row items-center justify-between gap-10"
+        
       >
         <Link to="https://github.com/Himanshipatel04/Notebook/blob/main/Diabetes_project.ipynb">
           <Card
@@ -42,23 +58,7 @@ const Project = () => {
         </Link>
       </div>
 
-      <div
-        className=" mb-10 md:mb-0 flex flex-col md:flex-row items-center justify-between gap-10"
-        data-aos="fade-up"
-        data-aos-delay="300"
-      >
-        <Link to="https://github.com/Himanshipatel04/goFood-f.git">
-          <Card photo={gofood} heading="GoFood" text="MERN" />
-        </Link>
-        <Link to="https://github.com/Himanshipatel04/learn-ify.git"><Card
-          photo={learnify}
-          heading="Learnify"
-          text="React,Firebase"
-        /></Link>
-        <Link to="https://bloghive-lovat.vercel.app/">
-          <Card photo={bloghive} heading="BlogHive" text="MERN" />
-        </Link>
-      </div>
+      
     </div>
   );
 };
