@@ -3,9 +3,9 @@ import Card from "../components/Card";
 import diaphoto from "../assets/diabetes.jpg";
 import roadphoto from "../assets/roadsafety.jpeg";
 import sales from "../assets/sales.jpeg";
-import reactphoto from "../assets/reactport.jpg";
-import htmlphoto from "../assets/Htmlport.jpg";
-import todophoto from "../assets/to-do.jpg";
+import gofood from "../assets/go-food.png";
+import bloghive from "../assets/image.png";
+import learnify from "../assets/learnify.png";
 import { Link } from "react-router-dom";
 
 const Project = () => {
@@ -47,16 +47,16 @@ const Project = () => {
         data-aos="fade-up"
         data-aos-delay="300"
       >
-        <Link to="https://portfolioinreact.vercel.app/">
-          <Card photo={reactphoto} heading="Portfolio Website" text="React" />
+        <Link to="https://github.com/Himanshipatel04/goFood-f.git">
+          <Card photo={gofood} heading="GoFood" text="MERN" />
         </Link>
-        <Link to="https://github.com/Himanshipatel04/To-do-List"><Card
-          photo={todophoto}
-          heading="To-do list"
-          text="HTML,CSS,JavaScript"
+        <Link to="https://github.com/Himanshipatel04/learn-ify.git"><Card
+          photo={learnify}
+          heading="Learnify"
+          text="React,Firebase"
         /></Link>
-        <Link to="https://himanshipatel04.github.io/Portfolio/">
-          <Card photo={htmlphoto} heading="Portfolio Website" text="HTML,CSS" />
+        <Link to="https://bloghive-lovat.vercel.app/">
+          <Card photo={bloghive} heading="BlogHive" text="MERN" />
         </Link>
       </div>
     </div>
